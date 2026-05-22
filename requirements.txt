@@ -1,0 +1,24 @@
+# Motor de Ventas SmartTea® - Dependencias Completas
+# Para despliegue en Railway/Render/Cloud Run
+
+# Framework API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# IA y ML
+anthropic==0.7.7
+groq==0.9.0
+
+# Web Scraping
+playwright==1.40.0
+
+# Utilidades
+python-dotenv==1.0.0
+requests==2.31.0
+pandas==2.1.3
+openpyxl==3.1.2
+
+# HTTP Asíncrono
+aiohttp==3.9.1
+httpx==0.25.2
